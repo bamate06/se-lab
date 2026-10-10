@@ -61,3 +61,4 @@ public class TorpedoStore {
     return this.torpedoCount;
   }
 }
+// Initial torpedo count is 0 by default
