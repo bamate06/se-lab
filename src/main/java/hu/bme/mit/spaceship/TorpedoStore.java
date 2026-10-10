@@ -13,6 +13,7 @@ public class TorpedoStore {
   private double FAILURE_RATE = 0.0; //NOSONAR
 
   private int torpedoCount = 0;
+  // Teszt a review folyamathoz
 
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
@@ -60,3 +61,4 @@ public class TorpedoStore {
     return this.torpedoCount;
   }
 }
+// Initial torpedo count is 0 by default
